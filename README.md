@@ -1,14 +1,14 @@
-## 基于遗传算法和模拟退火算法的多旅行商问题(MTSP)研究
+# 基于遗传算法和模拟退火算法的多旅行商问题(MTSP)研究
 
 本项目分别实现了遗传算法（GA）和模拟退火算法（SA）解决多旅行商问题。多旅行问题分为两个实际的问题场景，分别对应于本项目的两个实验。第一个实验是工厂安排巡检路线问题，数据见`data/routine_nodes.txt`；第二个实验是安排运输机航线问题，数据见`data/provincial_capital.txt`。最后两个实验的可视化结果保存在`mtsp_ga_and_sa.ipynb`中。
 
-### 实验环境
+## 实验环境
 
 * python  3.6
 * matplotlib  3.3.0
 * folium  0.11.0
 
-### 目录结构
+## 目录结构
 
 ```
 ├── README.md 
@@ -38,28 +38,36 @@
 | ga_best_all_air_line.html                               | GA安排所有运输机航线结果(加载需要花费一定时间)               |
 | sa_best_all_air_line.html                               | SA安排所有运输机航线结果(加载需要花费一定时间)               |
 
-### 实验结果
+## 遗传算法GA
 
-实验一和实验二的结果都显示在`mtsp_ga_and_sa.ipynb`中，如果想重新程序，只要运行`mtsp_ga_and_sa.ipynb`即可。
+![](./imgs/遗传算法.png)
 
-#### 实验一：工厂安排巡检路线问题(26个检查点)
+## 模拟退火算法SA
 
-##### GA结果
+![](./imgs/模拟退火算法.png)
+
+## 实验结果
+
+实验一和实验二的结果都显示在`mtsp_ga_and_sa.ipynb`中，实验二中地图渲染效果可以在[nbviewer](https://nbviewer.jupyter.org/github/Star-Stone/MTSP-GA-and-SA/blob/master/mtsp_ga_and_sa.ipynb) 中查看。如果想重新程序，只要运行`mtsp_ga_and_sa.ipynb`即可。
+
+### 实验一：工厂安排巡检路线问题(26个检查点)
+
+#### GA结果
 
 ![](./imgs/实验1-GA.png)
 
-##### SA结果
+#### SA结果
 
 ![](./imgs/实验1-SA.png)
 
-#### 实验二：安排运输机航线问题(中国34个城市)
+### 实验二：安排运输机航线问题(中国34个城市)
 
-##### GA结果
+#### GA结果
 
 GA同样的有上述总路程分析图，但是增加了运输机航线可视化路线。
 
 ![](./imgs/实验二-GA.gif)
 
-##### SA结果
+#### SA结果
 
 ![](./imgs/实验二-SA.gif)
