@@ -27,16 +27,16 @@
 
 文件功能描述：
 
-| 文件                                                         | 描述                                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| utils.py                                                     | 工具模块，包含读取文件功能                                   |
-| genetic_algorithm.py                                         | 遗传算法模块                                                 |
-| simulated_annealing.py                                       | 模拟退火算法模块                                             |
-| [mtsp_ga_and_sa.ipynb](mtsp_ga_and_sa.ipynb)                 | 实验一和二分别使用GA和SA，保存结果并进行可视化展示           |
-| [routine_nodes.txt](./data/routine_nodes.txt)                | 实验一数据：26个节点之间的路程<br>如：第二行"2	3	1"表示检查点2到检查点3距离为1 |
-| [provincial_capital.txt](./data/provincial_capital.txt)      | 实验二数据：中国34个城市的经纬度<br>如："北京	116.407526	39.90403"中第一个数字为北京经度，第二个数字为北京纬度 |
-| [ga_best_all_air_line.html](./airline/ga_best_all_air_line.html) | GA安排所有运输机航线结果(加载需要花费一定时间)               |
-| [sa_best_all_air_line.html](./airline/sa_best_all_air_line.html) | SA安排所有运输机航线结果(加载需要花费一定时间)               |
+| 文件                                                    | 描述                                                         |
+| ------------------------------------------------------- | ------------------------------------------------------------ |
+| utils.py                                                | 工具模块，包含读取文件功能                                   |
+| genetic_algorithm.py                                    | 遗传算法模块                                                 |
+| simulated_annealing.py                                  | 模拟退火算法模块                                             |
+| [mtsp_ga_and_sa.ipynb](mtsp_ga_and_sa.ipynb)            | 实验一和二分别使用GA和SA，保存结果并进行可视化展示           |
+| [routine_nodes.txt](./data/routine_nodes.txt)           | 实验一数据：26个节点之间的路程<br>如：第二行"2	3	1"表示检查点2到检查点3距离为1 |
+| [provincial_capital.txt](./data/provincial_capital.txt) | 实验二数据：中国34个城市的经纬度<br>如："北京	116.407526	39.90403"中第一个数字为北京经度，第二个数字为北京纬度 |
+| ga_best_all_air_line.html                               | GA安排所有运输机航线结果(加载需要花费一定时间)               |
+| sa_best_all_air_line.html                               | SA安排所有运输机航线结果(加载需要花费一定时间)               |
 
 ### 实验结果
 
